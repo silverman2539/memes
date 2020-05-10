@@ -1,0 +1,1711 @@
+<html>
+	<head>
+		<title>A Year's Worth of Posts I Stole From the Internet</title>
+		<link rel="shortcut icon" href="emoji.ico">
+		<style>
+			body
+			{
+				background-color: mistyrose;
+				border-style: solid;
+				border-color: firebrick;
+				padding: 25;
+				color: gray;
+				font-size: 25;
+				text-align: center;
+				overflow: auto;
+			}
+			img
+			{
+				width: 200;
+				border-style: solid;
+				border-color: gray;
+				display: inline-block;
+			}
+			div
+			{
+				width: 1082;
+				margin: auto;
+				position: relative;
+			}
+			embed
+			{
+				width: 200;
+				height: 200;
+				border-style: solid;
+				border-color: gray;
+				display: inline-block;
+			}
+			.big
+			{
+				height: 286;
+			}
+			.small
+			{
+				height: 140;
+			}
+			.info
+			{
+				width: 275;
+				position: fixed;
+				display: inline;
+				top: 50%;
+				left: 50%;
+				-ms-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+				z-index: 1;
+				border-style: solid;
+				border-color: firebrick;
+				background-color: mistyrose;
+			}
+			button
+			{
+				font-size: 20;
+				border-style: solid;
+				border-color: gray;
+				color: gray;
+				background-color: whitesmoke;
+			}
+			button:hover
+			{
+				transition: 0.5s;
+				opacity: 50%;
+			}
+			button:disabled
+			{
+				opacity: 25%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="info" id="s1" style="display:none;">
+			<br>
+			<img id="s1-1" src="memes-small-extra-page-009.jpg">
+			<img id="s1-2" src="memes-small-extra-page-008.jpg" style="display:none;">
+			<br><br>
+			<button id="last-s1" onclick="LastS1()">Last</button>
+			<button id="next-s1" onclick="NextS1()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="s2" style="display:none;">
+			<br>
+			<img id="s2-1" src="memes-small-extra-page-001.jpg">
+			<img id="s2-2" src="memes-small-extra-page-002.jpg" style="display:none;">
+			<img id="s2-3" src="memes-small-extra-page-003.jpg" style="display:none;">
+			<br><br>
+			<button id="last-s2" onclick="LastS2()">Last</button>
+			<button id="next-s2" onclick="NextS2()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="s3" style="display:none;">
+			<br>
+			<img id="s3-1" src="memes-small-extra-page-004.jpg">
+			<img id="s3-2" src="memes-small-extra-page-005.jpg" style="display:none;">
+			<img id="s3-3" src="memes-small-extra-page-006.jpg" style="display:none;">
+			<img id="s3-4" src="memes-small-extra-page-007.jpg" style="display:none;">
+			<br><br>
+			<button id="last-s3" onclick="LastS3()">Last</button>
+			<button id="next-s3" onclick="NextS3()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r1" style="display:none;">
+			<br>
+			<img id="r1-1" src="memes-regular-extra-page-016.jpg">
+			<img id="r1-2" src="memes-regular-extra-page-017.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r1" onclick="LastR1()">Last</button>
+			<button id="next-r1" onclick="NextR1()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r2" style="display:none;">
+			<br>
+			<img id="r2-1" src="memes-regular-extra-page-034.jpg">
+			<img id="r2-2" src="memes-regular-extra-page-035.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r2" onclick="LastR2()">Last</button>
+			<button id="next-r2" onclick="NextR2()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r3" style="display:none;">
+			<br>
+			<embed id="r3-1" src="video.mp4" style="display:none;">
+			<img id="r3-2" src="memes-regular-extra-page-001.jpg" style="display:none;">
+			<img id="r3-3" src="memes-regular-extra-page-002.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r3" onclick="LastR3()">Last</button>
+			<button id="next-r3" onclick="NextR3()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r4" style="display:none;">
+			<br>
+			<img id="r4-1" src="memes-regular-extra-page-013.jpg">
+			<img id="r4-2" src="memes-regular-extra-page-014.jpg" style="display:none;">
+			<img id="r4-3" src="memes-regular-extra-page-015.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r4" onclick="LastR4()">Last</button>
+			<button id="next-r4" onclick="NextR4()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r5" style="display:none;">
+			<br>
+			<img id="r5-1" src="memes-regular-extra-page-030.jpg">
+			<img id="r5-2" src="memes-regular-extra-page-031.jpg" style="display:none;">
+			<img id="r5-3" src="memes-regular-extra-page-032.jpg" style="display:none;">
+			<img id="r5-4" src="memes-regular-extra-page-033.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r5" onclick="LastR5()">Last</button>
+			<button id="next-r5" onclick="NextR5()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r6" style="display:none;">
+			<br>
+			<img id="r6-1" src="memes-regular-extra-page-018.jpg">
+			<img id="r6-2" src="memes-regular-extra-page-019.jpg" style="display:none;">
+			<img id="r6-3" src="memes-regular-extra-page-020.jpg" style="display:none;">
+			<img id="r6-4" src="memes-regular-extra-page-021.jpg" style="display:none;">
+			<img id="r6-5" src="memes-regular-extra-page-022.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r6" onclick="LastR6()">Last</button>
+			<button id="next-r6" onclick="NextR6()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r7" style="display:none;">
+			<br>
+			<img id="r7-1" src="memes-regular-extra-page-005.jpg">
+			<img id="r7-2" src="memes-regular-extra-page-006.jpg" style="display:none;">
+			<img id="r7-3" src="memes-regular-extra-page-007.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r7" onclick="LastR7()">Last</button>
+			<button id="next-r7" onclick="NextR7()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r8" style="display:none;">
+			<br>
+			<img id="r8-1" src="memes-regular-extra-page-025.jpg">
+			<img id="r8-2" src="memes-regular-extra-page-026.jpg" style="display:none;">
+			<img id="r8-3" src="memes-regular-extra-page-027.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r8" onclick="LastR8()">Last</button>
+			<button id="next-r8" onclick="NextR8()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r9" style="display:none;">
+			<br>
+			<img id="r9-1" src="memes-regular-extra-page-028.jpg">
+			<img id="r9-2" src="memes-regular-extra-page-029.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r9" onclick="LastR9()">Last</button>
+			<button id="next-r9" onclick="NextR9()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r10" style="display:none;">
+			<br>
+			<img id="r10-1" src="memes-regular-extra-page-023.jpg">
+			<img id="r10-2" src="memes-regular-extra-page-024.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r10" onclick="LastR10()">Last</button>
+			<button id="next-r10" onclick="NextR10()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r11" style="display:none;">
+			<br>
+			<img id="r11-1" src="memes-regular-extra-page-008.jpg">
+			<img id="r11-2" src="memes-regular-extra-page-009.jpg" style="display:none;">
+			<img id="r11-3" src="memes-regular-extra-page-010.jpg" style="display:none;">
+			<img id="r11-4" src="memes-regular-extra-page-011.jpg" style="display:none;">
+			<img id="r11-5" src="memes-regular-extra-page-012.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r11" onclick="LastR11()">Last</button>
+			<button id="next-r11" onclick="NextR11()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="r12" style="display:none;">
+			<br>
+			<img id="r12-1" src="memes-regular-extra-page-003.jpg">
+			<img id="r12-2" src="memes-regular-extra-page-004.jpg" style="display:none;">
+			<br><br>
+			<button id="last-r12" onclick="LastR12()">Last</button>
+			<button id="next-r12" onclick="NextR12()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="b1" style="display:none;">
+			<br>
+			<img id="b1-1" src="memes-big-extra-page-001.jpg">
+			<img id="b1-2" src="memes-big-extra-page-002.jpg" style="display:none;">
+			<img id="b1-3" src="memes-big-extra-page-003.jpg" style="display:none;">
+			<br><br>
+			<button id="last-b1" onclick="LastB1()">Last</button>
+			<button id="next-b1" onclick="NextB1()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="b2" style="display:none;">
+			<br>
+			<img id="b2-1" src="memes-big-extra-page-006.jpg">
+			<img id="b2-2" src="memes-big-extra-page-007.jpg" style="display:none;">
+			<img id="b2-3" src="memes-big-extra-page-008.jpg" style="display:none;">
+			<img id="b2-4" src="memes-big-extra-page-009.jpg" style="display:none;">
+			<br><br>
+			<button id="last-b2" onclick="LastB2()">Last</button>
+			<button id="next-b2" onclick="NextB2()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<div class="info" id="b3" style="display:none;">
+			<br>
+			<img id="b3-1" src="memes-big-extra-page-004.jpg">
+			<img id="b3-2" src="memes-big-extra-page-005.jpg" style="display:none;">
+			<br><br>
+			<button id="last-b3" onclick="LastB3()">Last</button>
+			<button id="next-b3" onclick="NextB3()">Next</button>
+			<br><br>
+			<button onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		
+		<p>365 Memes!</p>
+		<p>One for every day of the next year we're dating!</p>
+		<p>Look at one each day</p>
+		<p>Or don't</p>
+		<p>You can look at them all right now</p>
+		<p>Or you can never look at them</p>
+		<p>Except they're not all memes</p>
+		<p>Some of them are just weird things</p>
+		<p>If some of them are there twice it's not my fault</p>
+		<p>You might have to zoom in to read some of them</p>
+		<div>
+			<img src="memes-small-page-095.jpg">
+			<img src="memes-small-page-001.jpg">
+			<img src="memes-small-page-002.jpg">
+			<img src="memes-small-page-003.jpg">
+			<img src="memes-small-page-004.jpg">
+			<img src="memes-regular-page-090.jpg">
+			<img src="memes-regular-page-091.jpg">
+			<img src="memes-regular-page-092.jpg">
+			<img src="memes-regular-page-093.jpg">
+			<img src="memes-regular-page-094.jpg">
+			<img src="memes-big-page-005.jpg">
+			<img src="memes-big-page-006.jpg">
+			<img src="memes-big-page-007.jpg">
+			<img src="memes-big-page-008.jpg">
+			<img src="memes-big-page-009.jpg">
+			<img src="memes-regular-page-005.jpg">
+			<img src="memes-regular-page-006.jpg">
+			<img src="memes-regular-page-007.jpg">
+			<img src="memes-regular-page-008.jpg">
+			<img src="memes-regular-page-009.jpg">
+			<img src="memes-small-page-005.jpg">
+			<img src="memes-small-page-006.jpg" onclick="Small1()">
+			<img src="memes-small-page-007.jpg">
+			<img src="memes-small-page-008.jpg">
+			<img src="memes-small-page-009.jpg">
+			<img src="memes-regular-page-095.jpg">
+			<embed src="video1.mp4">
+			<img src="memes-regular-page-064.jpg">
+			<img src="memes-regular-page-098.jpg">
+			<img src="memes-regular-page-099.jpg">
+			<embed src="video8.mp4" class="big">
+			<img src="memes-big-page-011.jpg">
+			<img src="memes-big-page-012.jpg">
+			<img src="memes-big-page-013.jpg">
+			<img src="memes-big-page-014.jpg">
+			<img src="memes-regular-page-010.jpg">
+			<img src="memes-regular-page-011.jpg">
+			<img src="memes-regular-page-012.jpg">
+			<img src="memes-regular-page-013.jpg">
+			<img src="memes-regular-page-014.jpg">
+			<img src="memes-small-page-010.jpg">
+			<img src="memes-small-page-011.jpg">
+			<img src="memes-small-page-012.jpg">
+			<img src="memes-small-page-013.jpg">
+			<img src="memes-small-page-014.jpg">
+			<img src="memes-regular-page-100.jpg">
+			<img src="memes-regular-page-101.jpg">
+			<img src="memes-regular-page-102.jpg">
+			<img src="memes-regular-page-103.jpg" onclick="Regular1()">
+			<img src="memes-regular-page-104.jpg">
+			<img src="memes-big-page-015.jpg">
+			<img src="memes-big-page-016.jpg">
+			<img src="memes-big-page-017.jpg">
+			<img src="memes-big-page-018.jpg">
+			<img src="memes-big-page-019.jpg">
+			<img src="memes-regular-page-015.jpg">
+			<img src="memes-regular-page-016.jpg">
+			<img src="memes-regular-page-017.jpg">
+			<img src="memes-regular-page-018.jpg">
+			<img src="memes-regular-page-019.jpg">
+			<img src="memes-small-page-015.jpg">
+			<img src="memes-small-page-016.jpg">
+			<img src="memes-small-page-017.jpg">
+			<img src="memes-small-page-018.jpg">
+			<img src="memes-small-page-019.jpg">
+			<img src="memes-regular-page-105.jpg">
+			<img src="memes-regular-page-106.jpg">
+			<img src="memes-regular-page-107.jpg">
+			<img src="memes-regular-page-108.jpg">
+			<img src="memes-regular-page-109.jpg">
+			<img src="memes-big-page-020.jpg" onclick="Big1()">
+			<img src="memes-big-page-021.jpg">
+			<img src="memes-big-page-022.jpg">
+			<img src="memes-big-page-023.jpg">
+			<img src="memes-big-page-024.jpg">
+			<img src="memes-regular-page-020.jpg">
+			<img src="memes-regular-page-021.jpg">
+			<img src="memes-regular-page-022.jpg" onclick="Regular2()">
+			<img src="memes-regular-page-023.jpg">
+			<img src="memes-regular-page-024.jpg">
+			<img src="memes-small-page-020.jpg">
+			<img src="memes-small-page-021.jpg">
+			<img src="memes-small-page-022.jpg">
+			<img src="memes-small-page-023.jpg">
+			<img src="memes-small-page-024.jpg">
+			<img src="memes-regular-page-110.jpg">
+			<img src="memes-regular-page-111.jpg">
+			<img src="memes-regular-page-112.jpg">
+			<img src="memes-regular-page-113.jpg">
+			<img src="memes-regular-page-114.jpg">
+			<img src="memes-big-page-025.jpg">
+			<img src="memes-big-page-026.jpg">
+			<img src="memes-big-page-027.jpg">
+			<embed src="video5.mp4" class="big">
+			<img src="memes-big-page-029.jpg">
+			<img src="memes-regular-page-025.jpg">
+			<img src="memes-regular-page-026.jpg">
+			<img src="memes-regular-page-027.jpg">
+			<img src="memes-regular-page-028.jpg">
+			<img src="memes-regular-page-029.jpg">
+			<img src="memes-small-page-025.jpg">
+			<img src="memes-small-page-026.jpg">
+			<img src="memes-small-page-027.jpg">
+			<img src="memes-small-page-028.jpg">
+			<img src="memes-small-page-029.jpg">
+			<img src="memes-regular-page-115.jpg" onclick="Regular3()">
+			<img src="memes-regular-page-116.jpg">
+			<img src="memes-regular-page-117.jpg">
+			<img src="memes-regular-page-118.jpg">
+			<img src="memes-regular-page-119.jpg">
+			<img src="memes-big-page-030.jpg">
+			<img src="memes-big-page-031.jpg">
+			<img src="memes-big-page-032.jpg">
+			<img src="memes-big-page-033.jpg">
+			<img src="memes-big-page-034.jpg">
+			<img src="memes-regular-page-030.jpg">
+			<img src="memes-regular-page-031.jpg">
+			<img src="memes-regular-page-032.jpg">
+			<img src="memes-regular-page-033.jpg">
+			<img src="memes-regular-page-034.jpg" onclick="Regular4()">
+			<img src="memes-small-page-030.jpg">
+			<img src="memes-small-page-031.jpg">
+			<img src="memes-small-page-032.jpg">
+			<img src="memes-small-page-033.jpg">
+			<img src="memes-small-page-034.jpg" onclick="Small2()">
+			<img src="memes-regular-page-120.jpg">
+			<img src="memes-regular-page-121.jpg">
+			<img src="memes-regular-page-122.jpg">
+			<img src="memes-regular-page-123.jpg">
+			<img src="memes-regular-page-124.jpg">
+			<img src="memes-big-page-035.jpg">
+			<img src="memes-big-page-036.jpg">
+			<img src="memes-big-page-037.jpg">
+			<img src="memes-big-page-038.jpg">
+			<img src="memes-big-page-039.jpg">
+			<img src="memes-regular-page-035.jpg">
+			<img src="memes-regular-page-036.jpg">
+			<img src="memes-regular-page-037.jpg">
+			<img src="memes-regular-page-038.jpg">
+			<img src="memes-regular-page-039.jpg">
+			<img src="memes-small-page-035.jpg">
+			<img src="memes-small-page-036.jpg">
+			<img src="memes-small-page-037.jpg">
+			<img src="memes-small-page-038.jpg">
+			<img src="memes-small-page-039.jpg">
+			<img src="memes-regular-page-125.jpg">
+			<img src="memes-regular-page-126.jpg">
+			<img src="memes-regular-page-127.jpg">
+			<img src="memes-regular-page-128.jpg">
+			<img src="memes-regular-page-129.jpg">
+			<img src="memes-big-page-040.jpg">
+			<img src="memes-big-page-041.jpg">
+			<img src="memes-big-page-042.jpg">
+			<img src="memes-big-page-043.jpg">
+			<img src="memes-big-page-044.jpg">
+			<img src="memes-regular-page-040.jpg">
+			<img src="memes-regular-page-041.jpg">
+			<img src="memes-regular-page-042.jpg">
+			<img src="memes-regular-page-043.jpg">
+			<img src="memes-regular-page-044.jpg">
+			<img src="memes-small-page-040.jpg">
+			<img src="memes-small-page-041.jpg">
+			<img src="memes-small-page-042.jpg">
+			<img src="memes-small-page-043.jpg">
+			<img src="memes-small-page-044.jpg">
+			<img src="memes-regular-page-130.jpg">
+			<img src="memes-regular-page-131.jpg">
+			<img src="memes-regular-page-132.jpg">
+			<img src="memes-regular-page-133.jpg">
+			<img src="memes-regular-page-134.jpg">
+			<img src="memes-big-page-045.jpg">
+			<embed src="video4.mp4" class="big">
+			<img src="memes-big-page-047.jpg">
+			<img src="memes-big-page-048.jpg">
+			<img src="memes-big-page-049.jpg">
+			<img src="memes-regular-page-135.jpg">
+			<img src="memes-regular-page-136.jpg">
+			<img src="memes-regular-page-137.jpg">
+			<img src="memes-regular-page-138.jpg" onclick="Regular5()">
+			<img src="memes-regular-page-139.jpg">
+			<img src="memes-small-page-045.jpg">
+			<img src="memes-small-page-046.jpg">
+			<img src="memes-small-page-047.jpg">
+			<img src="memes-small-page-048.jpg">
+			<img src="memes-small-page-049.jpg">
+			<img src="memes-regular-page-045.jpg">
+			<img src="memes-regular-page-046.jpg" onclick="Regular6()">
+			<img src="memes-regular-page-047.jpg">
+			<img src="memes-regular-page-048.jpg">
+			<img src="memes-regular-page-049.jpg">
+			<img src="memes-big-page-050.jpg">
+			<img src="memes-big-page-051.jpg">
+			<img src="memes-big-page-052.jpg" onclick="Big2()">
+			<img src="memes-big-page-053.jpg">
+			<img src="memes-big-page-054.jpg">
+			<img src="memes-regular-page-140.jpg">
+			<img src="memes-regular-page-141.jpg">
+			<img src="memes-regular-page-142.jpg">
+			<img src="memes-regular-page-143.jpg">
+			<img src="memes-regular-page-144.jpg">
+			<img src="memes-small-page-050.jpg">
+			<img src="memes-small-page-051.jpg">
+			<img src="memes-small-page-052.jpg">
+			<img src="memes-small-page-053.jpg">
+			<img src="memes-small-page-054.jpg">
+			<img src="memes-regular-page-050.jpg">
+			<img src="memes-regular-page-051.jpg">
+			<img src="memes-regular-page-052.jpg">
+			<embed src="video2.mp4">
+			<img src="memes-regular-page-054.jpg">
+			<img src="memes-big-page-055.jpg">
+			<img src="memes-big-page-056.jpg">
+			<img src="memes-big-page-057.jpg">
+			<img src="memes-big-page-058.jpg">
+			<img src="memes-big-page-059.jpg">
+			<img src="memes-regular-page-145.jpg">
+			<img src="memes-regular-page-146.jpg">
+			<img src="memes-regular-page-147.jpg">
+			<img src="memes-regular-page-148.jpg">
+			<img src="memes-regular-page-149.jpg">
+			<img src="memes-small-page-055.jpg">
+			<img src="memes-small-page-056.jpg">
+			<img src="memes-small-page-057.jpg">
+			<img src="memes-small-page-058.jpg">
+			<img src="memes-small-page-059.jpg">
+			<img src="memes-regular-page-055.jpg">
+			<img src="memes-regular-page-056.jpg">
+			<img src="memes-regular-page-057.jpg" onclick="Regular7()">
+			<img src="memes-regular-page-058.jpg">
+			<img src="memes-regular-page-059.jpg">
+			<img src="memes-big-page-060.jpg">
+			<img src="memes-big-page-061.jpg">
+			<img src="memes-big-page-062.jpg">
+			<img src="memes-big-page-063.jpg">
+			<img src="memes-big-page-064.jpg">
+			<img src="memes-regular-page-150.jpg">
+			<img src="memes-regular-page-151.jpg">
+			<embed src="video3.mp4">
+			<img src="memes-regular-page-153.jpg">
+			<img src="memes-regular-page-154.jpg">
+			<img src="memes-small-page-060.jpg">
+			<img src="memes-small-page-061.jpg">
+			<img src="memes-small-page-062.jpg">
+			<img src="memes-small-page-063.jpg">
+			<img src="memes-small-page-064.jpg">
+			<img src="memes-regular-page-060.jpg">
+			<img src="memes-regular-page-061.jpg">
+			<img src="memes-regular-page-062.jpg">
+			<img src="memes-regular-page-063.jpg">
+			<embed src="video9.mp4">
+			<img src="memes-big-page-065.jpg">
+			<img src="memes-big-page-066.jpg">
+			<img src="memes-big-page-067.jpg">
+			<img src="memes-big-page-068.jpg">
+			<img src="memes-big-page-069.jpg" onclick="Big3()">
+			<img src="memes-regular-page-155.jpg">
+			<img src="memes-regular-page-156.jpg" onclick="Regular8()">
+			<img src="memes-regular-page-157.jpg">
+			<img src="memes-regular-page-158.jpg">
+			<img src="memes-regular-page-159.jpg">
+			<img src="memes-small-page-065.jpg">
+			<img src="memes-small-page-066.jpg" onclick="Small3()">
+			<img src="memes-small-page-067.jpg">
+			<img src="memes-small-page-068.jpg">
+			<img src="memes-small-page-069.jpg">
+			<img src="memes-regular-page-065.jpg">
+			<img src="memes-regular-page-066.jpg">
+			<img src="memes-regular-page-067.jpg">
+			<img src="memes-regular-page-068.jpg">
+			<img src="memes-regular-page-069.jpg">
+			<img src="memes-big-page-070.jpg">
+			<img src="memes-big-page-071.jpg">
+			<img src="memes-big-page-072.jpg">
+			<img src="memes-big-page-073.jpg">
+			<img src="memes-big-page-074.jpg">
+			<img src="memes-regular-page-160.jpg">
+			<img src="memes-regular-page-161.jpg">
+			<img src="memes-regular-page-162.jpg">
+			<embed src="video7.mp4">
+			<img src="memes-regular-page-164.jpg">
+			<img src="memes-small-page-070.jpg">
+			<img src="memes-small-page-071.jpg">
+			<img src="memes-small-page-072.jpg">
+			<img src="memes-small-page-073.jpg">
+			<img src="memes-small-page-074.jpg">
+			<img src="memes-regular-page-070.jpg" onclick="Regular9()">
+			<img src="memes-regular-page-071.jpg">
+			<img src="memes-regular-page-072.jpg">
+			<img src="memes-regular-page-073.jpg">
+			<img src="memes-regular-page-074.jpg">
+			<img src="memes-big-page-075.jpg">
+			<img src="memes-big-page-076.jpg">
+			<img src="memes-big-page-077.jpg">
+			<img src="memes-big-page-078.jpg">
+			<img src="memes-big-page-079.jpg">
+			<img src="memes-regular-page-165.jpg">
+			<img src="memes-regular-page-166.jpg">
+			<img src="memes-regular-page-167.jpg" onclick="Regular10()">
+			<img src="memes-regular-page-168.jpg">
+			<img src="memes-regular-page-169.jpg">
+			<img src="memes-small-page-075.jpg">
+			<img src="memes-small-page-076.jpg">
+			<img src="memes-small-page-077.jpg">
+			<img src="memes-small-page-078.jpg">
+			<img src="memes-small-page-079.jpg">
+			<img src="memes-regular-page-075.jpg">
+			<img src="memes-regular-page-076.jpg">
+			<img src="memes-regular-page-077.jpg">
+			<img src="memes-regular-page-078.jpg">
+			<img src="memes-regular-page-079.jpg">
+			<img src="memes-big-page-080.jpg">
+			<img src="memes-big-page-081.jpg">
+			<img src="memes-big-page-082.jpg">
+			<img src="memes-big-page-083.jpg">
+			<img src="memes-big-page-084.jpg">
+			<img src="memes-regular-page-170.jpg">
+			<embed src="video6.mp4">
+			<img src="memes-regular-page-172.jpg">
+			<img src="memes-regular-page-173.jpg">
+			<img src="memes-regular-page-174.jpg">
+			<img src="memes-small-page-080.jpg">
+			<img src="memes-small-page-081.jpg">
+			<img src="memes-small-page-082.jpg">
+			<img src="memes-small-page-083.jpg">
+			<img src="memes-small-page-084.jpg">
+			<img src="memes-regular-page-080.jpg">
+			<img src="memes-regular-page-081.jpg">
+			<img src="memes-regular-page-082.jpg">
+			<img src="memes-regular-page-083.jpg">
+			<img src="memes-regular-page-084.jpg">
+			<img src="memes-big-page-085.jpg">
+			<img src="memes-big-page-086.jpg">
+			<img src="memes-big-page-087.jpg">
+			<img src="memes-big-page-088.jpg">
+			<img src="memes-big-page-089.jpg">
+			<img src="memes-regular-page-175.jpg">
+			<img src="memes-regular-page-176.jpg" onclick="Regular11()">
+			<img src="memes-regular-page-177.jpg">
+			<img src="memes-regular-page-178.jpg">
+			<img src="memes-regular-page-179.jpg">
+			<img src="memes-small-page-085.jpg">
+			<img src="memes-small-page-086.jpg">
+			<img src="memes-small-page-087.jpg">
+			<img src="memes-small-page-088.jpg">
+			<img src="memes-small-page-089.jpg">
+			<img src="memes-regular-page-085.jpg">
+			<img src="memes-regular-page-086.jpg">
+			<img src="memes-regular-page-087.jpg">
+			<img src="memes-regular-page-088.jpg" onclick="Regular12()">
+			<img src="memes-regular-page-089.jpg">
+			<img src="memes-big-page-090.jpg">
+			<img src="memes-big-page-001.jpg">
+			<img src="memes-big-page-002.jpg">
+			<img src="memes-big-page-003.jpg">
+			<img src="memes-big-page-004.jpg">
+			<img src="memes-regular-page-180.jpg">
+			<img src="memes-regular-page-001.jpg">
+			<img src="memes-regular-page-002.jpg">
+			<img src="memes-regular-page-003.jpg">
+			<img src="memes-regular-page-004.jpg">
+			<img src="memes-small-page-090.jpg">
+			<img src="memes-small-page-091.jpg">
+			<img src="memes-small-page-092.jpg">
+			<img src="memes-small-page-093.jpg">
+			<img src="memes-small-page-094.jpg">
+			<p>An extra one because I just really love you!</p>
+			<img src="memes-regular-page-097.jpg">
+		</div>
+		
+		<script>
+			var s1 = 1;
+			var s2 = 1;
+			var s3 = 1;
+			var r1 = 1;
+			var r2 = 1;
+			var r3 = 1;
+			var r4 = 1;
+			var r5 = 1;
+			var r6 = 1;
+			var r7 = 1;
+			var r8 = 1;
+			var r9 = 1;
+			var r10 = 1;
+			var r11 = 1;
+			var r12 = 1;
+			var b1 = 1;
+			var b2 = 1;
+			var b3 = 1;
+			
+			function Close()
+			{
+				document.body.style.overflow = "auto";
+				document.getElementById("s1").style.display = "none";
+				document.getElementById("s2").style.display = "none";
+				document.getElementById("s3").style.display = "none";
+				document.getElementById("r1").style.display = "none";
+				document.getElementById("r2").style.display = "none";
+				document.getElementById("r3").style.display = "none";
+				document.getElementById("r4").style.display = "none";
+				document.getElementById("r5").style.display = "none";
+				document.getElementById("r6").style.display = "none";
+				document.getElementById("r7").style.display = "none";
+				document.getElementById("r8").style.display = "none";
+				document.getElementById("r9").style.display = "none";
+				document.getElementById("r10").style.display = "none";
+				document.getElementById("r11").style.display = "none";
+				document.getElementById("r12").style.display = "none";
+				document.getElementById("b1").style.display = "none";
+				document.getElementById("b2").style.display = "none";
+				document.getElementById("b3").style.display = "none";
+			}
+			
+			function Small1()
+			{
+				document.getElementById("s1").style.display = "";
+				document.body.style.overflow = "hidden";
+				s1 = 1;
+				document.getElementById("last-s1").disabled = "true";
+				document.getElementById("next-s1").disabled = "";
+				document.getElementById("s1-1").style.display = "";
+				document.getElementById("s1-2").style.display = "none";
+			}
+			function NextS1()
+			{
+				if (s1 == 1)
+				{
+					s1 = 2;
+					document.getElementById("last-s1").disabled = "";
+					document.getElementById("next-s1").disabled = "true";
+					document.getElementById("s1-1").style.display = "none";
+					document.getElementById("s1-2").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastS1()
+			{
+				if (s1 == 2)
+				{
+					s1 = 1;
+					document.getElementById("next-s1").disabled = "";
+					document.getElementById("last-s1").disabled = "true";
+					document.getElementById("s1-2").style.display = "none";
+					document.getElementById("s1-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Small2()
+			{
+				document.getElementById("s2").style.display = "";
+				document.body.style.overflow = "hidden";
+				s2 = 1;
+				document.getElementById("last-s2").disabled = "true";
+				document.getElementById("next-s2").disabled = "";
+				document.getElementById("s2-1").style.display = "";
+				document.getElementById("s2-2").style.display = "none";
+				document.getElementById("s2-3").style.display = "none";
+			}
+			function NextS2()
+			{
+				if (s2 == 1)
+				{
+					s2 = 2;
+					document.getElementById("last-s2").disabled = "";
+					document.getElementById("s2-1").style.display = "none";
+					document.getElementById("s2-2").style.display = "";
+				}
+				else if (s2 == 2)
+				{
+					s2 = 3;
+					document.getElementById("next-s2").disabled = "true";
+					document.getElementById("s2-2").style.display = "none";
+					document.getElementById("s2-3").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastS2()
+			{
+				if (s2 == 3)
+				{
+					s2 = 2;
+					document.getElementById("next-s2").disabled = "";
+					document.getElementById("s2-3").style.display = "none";
+					document.getElementById("s2-2").style.display = "";
+				}
+				else if (s2 == 2)
+				{
+					s2 = 1;
+					document.getElementById("last-s2").disabled = "none";
+					document.getElementById("s2-2").style.display = "none";
+					document.getElementById("s2-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Small3()
+			{
+				document.getElementById("s3").style.display = "";
+				document.body.style.overflow = "hidden";
+				s3 = 1;
+				document.getElementById("last-s3").disabled = "true";
+				document.getElementById("next-s3").disabled = "";
+				document.getElementById("s3-1").style.display = "";
+				document.getElementById("s3-2").style.display = "none";
+				document.getElementById("s3-3").style.display = "none";
+				document.getElementById("s3-4").style.display = "none";
+			}
+			function NextS3()
+			{
+				if (s3 == 1)
+				{
+					s3 = 2;
+					document.getElementById("last-s3").disabled = "";
+					document.getElementById("s3-1").style.display = "none";
+					document.getElementById("s3-2").style.display = "";
+				}
+				else if (s3 == 2)
+				{
+					s3 = 3;
+					document.getElementById("s3-2").style.display = "none";
+					document.getElementById("s3-3").style.display = "";
+				}
+				else if (s3 == 3)
+				{
+					s3 = 4;
+					document.getElementById("next-s3").disabled = "true";
+					document.getElementById("s3-3").style.display = "none";
+					document.getElementById("s3-4").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastS3()
+			{
+				if (s3 == 4)
+				{
+					s3 = 3;
+					document.getElementById("next-s3").disabled = "";
+					document.getElementById("s3-4").style.display = "none";
+					document.getElementById("s3-3").style.display = "";
+				}
+				else if (s3 == 3)
+				{
+					s3 = 2;
+					document.getElementById("s3-3").style.display = "none";
+					document.getElementById("s3-2").style.display = "";
+				}
+				else if (s3 == 2)
+				{
+					s3 = 1;
+					document.getElementById("last-s3").disabled = "none";
+					document.getElementById("s3-2").style.display = "none";
+					document.getElementById("s3-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular1()
+			{
+				document.getElementById("r1").style.display = "";
+				document.body.style.overflow = "hidden";
+				r1 = 1;
+				document.getElementById("last-r1").disabled = "true";
+				document.getElementById("next-r1").disabled = "";
+				document.getElementById("r1-1").style.display = "";
+				document.getElementById("r1-2").style.display = "none";
+			}
+			function NextR1()
+			{
+				if (r1 == 1)
+				{
+					r1 = 2;
+					document.getElementById("last-r1").disabled = "";
+					document.getElementById("next-r1").disabled = "true";
+					document.getElementById("r1-1").style.display = "none";
+					document.getElementById("r1-2").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR1()
+			{
+				if (r1 == 2)
+				{
+					r1 = 1;
+					document.getElementById("next-r1").disabled = "";
+					document.getElementById("last-r1").disabled = "true";
+					document.getElementById("r1-2").style.display = "none";
+					document.getElementById("r1-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular2()
+			{
+				document.getElementById("r2").style.display = "";
+				document.body.style.overflow = "hidden";
+				r2 = 1;
+				document.getElementById("last-r2").disabled = "true";
+				document.getElementById("next-r2").disabled = "";
+				document.getElementById("r2-1").style.display = "";
+				document.getElementById("r2-2").style.display = "none";
+			}
+			function NextR2()
+			{
+				if (r2 == 1)
+				{
+					r2 = 2;
+					document.getElementById("last-r2").disabled = "";
+					document.getElementById("next-r2").disabled = "true";
+					document.getElementById("r2-1").style.display = "none";
+					document.getElementById("r2-2").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR2()
+			{
+				if (r2 == 2)
+				{
+					r2 = 1;
+					document.getElementById("next-r2").disabled = "";
+					document.getElementById("last-r2").disabled = "true";
+					document.getElementById("r2-2").style.display = "none";
+					document.getElementById("r2-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular3()
+			{
+				document.getElementById("r3").style.display = "";
+				document.body.style.overflow = "hidden";
+				r3 = 1;
+				document.getElementById("last-r3").disabled = "true";
+				document.getElementById("next-r3").disabled = "";
+				document.getElementById("r3-1").style.display = "";
+				document.getElementById("r3-2").style.display = "none";
+				document.getElementById("r3-3").style.display = "none";
+			}
+			function NextR3()
+			{
+				if (r3 == 1)
+				{
+					r3 = 2;
+					document.getElementById("last-r3").disabled = "";
+					document.getElementById("r3-1").style.display = "none";
+					document.getElementById("r3-2").style.display = "";
+				}
+				else if (r3 == 2)
+				{
+					r3 = 3;
+					document.getElementById("next-r3").disabled = "true";
+					document.getElementById("r3-2").style.display = "none";
+					document.getElementById("r3-3").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR3()
+			{
+				if (r3 == 3)
+				{
+					r3 = 2;
+					document.getElementById("next-r3").disabled = "";
+					document.getElementById("r3-3").style.display = "none";
+					document.getElementById("r3-2").style.display = "";
+				}
+				else if (r3 == 2)
+				{
+					r3 = 1;
+					document.getElementById("last-r3").disabled = "none";
+					document.getElementById("r3-2").style.display = "none";
+					document.getElementById("r3-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular4()
+			{
+				document.getElementById("r4").style.display = "";
+				document.body.style.overflow = "hidden";
+				r4 = 1;
+				document.getElementById("last-r4").disabled = "true";
+				document.getElementById("next-r4").disabled = "";
+				document.getElementById("r4-1").style.display = "";
+				document.getElementById("r4-2").style.display = "none";
+				document.getElementById("r4-3").style.display = "none";
+			}
+			function NextR4()
+			{
+				if (r4 == 1)
+				{
+					r4 = 2;
+					document.getElementById("last-r4").disabled = "";
+					document.getElementById("r4-1").style.display = "none";
+					document.getElementById("r4-2").style.display = "";
+				}
+				else if (r4 == 2)
+				{
+					r4 = 3;
+					document.getElementById("next-r4").disabled = "true";
+					document.getElementById("r4-2").style.display = "none";
+					document.getElementById("r4-3").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR4()
+			{
+				if (r4 == 3)
+				{
+					r4 = 2;
+					document.getElementById("next-r4").disabled = "";
+					document.getElementById("r4-3").style.display = "none";
+					document.getElementById("r4-2").style.display = "";
+				}
+				else if (r4 == 2)
+				{
+					r4 = 1;
+					document.getElementById("last-r4").disabled = "none";
+					document.getElementById("r4-2").style.display = "none";
+					document.getElementById("r4-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular5()
+			{
+				document.getElementById("r5").style.display = "";
+				document.body.style.overflow = "hidden";
+				r5 = 1;
+				document.getElementById("last-r5").disabled = "true";
+				document.getElementById("next-r5").disabled = "";
+				document.getElementById("r5-1").style.display = "";
+				document.getElementById("r5-2").style.display = "none";
+				document.getElementById("r5-3").style.display = "none";
+				document.getElementById("r5-4").style.display = "none";
+			}
+			function NextR5()
+			{
+				if (r5 == 1)
+				{
+					r5 = 2;
+					document.getElementById("last-r5").disabled = "";
+					document.getElementById("r5-1").style.display = "none";
+					document.getElementById("r5-2").style.display = "";
+				}
+				else if (r5 == 2)
+				{
+					r5 = 3;
+					document.getElementById("r5-2").style.display = "none";
+					document.getElementById("r5-3").style.display = "";
+				}
+				else if (r5 == 3)
+				{
+					r5 = 4;
+					document.getElementById("next-r5").disabled = "true";
+					document.getElementById("r5-3").style.display = "none";
+					document.getElementById("r5-4").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR5()
+			{
+				if (r5 == 4)
+				{
+					r5 = 3;
+					document.getElementById("next-r5").disabled = "";
+					document.getElementById("r5-4").style.display = "none";
+					document.getElementById("r5-3").style.display = "";
+				}
+				else if (r5 == 3)
+				{
+					r5 = 2;
+					document.getElementById("r5-3").style.display = "none";
+					document.getElementById("r5-2").style.display = "";
+				}
+				else if (r5 == 2)
+				{
+					r5 = 1;
+					document.getElementById("last-r5").disabled = "none";
+					document.getElementById("r5-2").style.display = "none";
+					document.getElementById("r5-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular6()
+			{
+				document.getElementById("r6").style.display = "";
+				document.body.style.overflow = "hidden";
+				r6 = 1;
+				document.getElementById("last-r6").disabled = "true";
+				document.getElementById("next-r6").disabled = "";
+				document.getElementById("r6-1").style.display = "";
+				document.getElementById("r6-2").style.display = "none";
+				document.getElementById("r6-3").style.display = "none";
+				document.getElementById("r6-4").style.display = "none";
+				document.getElementById("r6-5").style.display = "none";
+			}
+			function NextR6()
+			{
+				if (r6 == 1)
+				{
+					r6 = 2;
+					document.getElementById("last-r6").disabled = "";
+					document.getElementById("r6-1").style.display = "none";
+					document.getElementById("r6-2").style.display = "";
+				}
+				else if (r6 == 2)
+				{
+					r6 = 3;
+					document.getElementById("r6-2").style.display = "none";
+					document.getElementById("r6-3").style.display = "";
+				}
+				else if (r6 == 3)
+				{
+					r6 = 4;
+					document.getElementById("r6-3").style.display = "none";
+					document.getElementById("r6-4").style.display = "";
+				}
+				else if (r6 == 4)
+				{
+					r6 = 5;
+					document.getElementById("next-r6").disabled = "true";
+					document.getElementById("r6-4").style.display = "none";
+					document.getElementById("r6-5").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR6()
+			{
+				if (r6 == 5)
+				{
+					r6 = 4;
+					document.getElementById("next-r6").disabled = "";
+					document.getElementById("r6-5").style.display = "none";
+					document.getElementById("r6-4").style.display = "";
+				}
+				else if (r6 == 4)
+				{
+					r6 = 3;
+					document.getElementById("r6-4").style.display = "none";
+					document.getElementById("r6-3").style.display = "";
+				}
+				else if (r6 == 3)
+				{
+					r6 = 2;
+					document.getElementById("r6-3").style.display = "none";
+					document.getElementById("r6-2").style.display = "";
+				}
+				else if (r6 == 2)
+				{
+					r6 = 1;
+					document.getElementById("last-r6").disabled = "none";
+					document.getElementById("r6-2").style.display = "none";
+					document.getElementById("r6-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular7()
+			{
+				document.getElementById("r7").style.display = "";
+				document.body.style.overflow = "hidden";
+				r7 = 1;
+				document.getElementById("last-r7").disabled = "true";
+				document.getElementById("next-r7").disabled = "";
+				document.getElementById("r7-1").style.display = "";
+				document.getElementById("r7-2").style.display = "none";
+				document.getElementById("r7-3").style.display = "none";
+			}
+			function NextR7()
+			{
+				if (r7 == 1)
+				{
+					r7 = 2;
+					document.getElementById("last-r7").disabled = "";
+					document.getElementById("r7-1").style.display = "none";
+					document.getElementById("r7-2").style.display = "";
+				}
+				else if (r7 == 2)
+				{
+					r7 = 3;
+					document.getElementById("next-r7").disabled = "true";
+					document.getElementById("r7-2").style.display = "none";
+					document.getElementById("r7-3").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR7()
+			{
+				if (r7 == 3)
+				{
+					r7 = 2;
+					document.getElementById("next-r7").disabled = "";
+					document.getElementById("r7-3").style.display = "none";
+					document.getElementById("r7-2").style.display = "";
+				}
+				else if (r7 == 2)
+				{
+					r7 = 1;
+					document.getElementById("last-r7").disabled = "none";
+					document.getElementById("r7-2").style.display = "none";
+					document.getElementById("r7-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular8()
+			{
+				document.getElementById("r8").style.display = "";
+				document.body.style.overflow = "hidden";
+				r8 = 1;
+				document.getElementById("last-r8").disabled = "true";
+				document.getElementById("next-r8").disabled = "";
+				document.getElementById("r8-1").style.display = "";
+				document.getElementById("r8-2").style.display = "none";
+				document.getElementById("r8-3").style.display = "none";
+			}
+			function NextR8()
+			{
+				if (r8 == 1)
+				{
+					r8 = 2;
+					document.getElementById("last-r8").disabled = "";
+					document.getElementById("r8-1").style.display = "none";
+					document.getElementById("r8-2").style.display = "";
+				}
+				else if (r8 == 2)
+				{
+					r8 = 3;
+					document.getElementById("next-r8").disabled = "true";
+					document.getElementById("r8-2").style.display = "none";
+					document.getElementById("r8-3").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR8()
+			{
+				if (r8 == 3)
+				{
+					r8 = 2;
+					document.getElementById("next-r8").disabled = "";
+					document.getElementById("r8-3").style.display = "none";
+					document.getElementById("r8-2").style.display = "";
+				}
+				else if (r8 == 2)
+				{
+					r8 = 1;
+					document.getElementById("last-r8").disabled = "none";
+					document.getElementById("r8-2").style.display = "none";
+					document.getElementById("r8-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular9()
+			{
+				document.getElementById("r9").style.display = "";
+				document.body.style.overflow = "hidden";
+				r9 = 1;
+				document.getElementById("last-r9").disabled = "true";
+				document.getElementById("next-r9").disabled = "";
+				document.getElementById("r9-1").style.display = "";
+				document.getElementById("r9-2").style.display = "none";
+			}
+			function NextR9()
+			{
+				if (r9 == 1)
+				{
+					r9 = 2;
+					document.getElementById("last-r9").disabled = "";
+					document.getElementById("next-r9").disabled = "true";
+					document.getElementById("r9-1").style.display = "none";
+					document.getElementById("r9-2").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR9()
+			{
+				if (r9 == 2)
+				{
+					r9 = 1;
+					document.getElementById("next-r9").disabled = "";
+					document.getElementById("last-r9").disabled = "true";
+					document.getElementById("r9-2").style.display = "none";
+					document.getElementById("r9-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular10()
+			{
+				document.getElementById("r10").style.display = "";
+				document.body.style.overflow = "hidden";
+				r10 = 1;
+				document.getElementById("last-r10").disabled = "true";
+				document.getElementById("next-r10").disabled = "";
+				document.getElementById("r10-1").style.display = "";
+				document.getElementById("r10-2").style.display = "none";
+			}
+			function NextR10()
+			{
+				if (r10 == 1)
+				{
+					r10 = 2;
+					document.getElementById("last-r10").disabled = "";
+					document.getElementById("next-r10").disabled = "true";
+					document.getElementById("r10-1").style.display = "none";
+					document.getElementById("r10-2").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR10()
+			{
+				if (r10 == 2)
+				{
+					r10 = 1;
+					document.getElementById("next-r10").disabled = "";
+					document.getElementById("last-r10").disabled = "true";
+					document.getElementById("r10-2").style.display = "none";
+					document.getElementById("r10-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular11()
+			{
+				document.getElementById("r11").style.display = "";
+				document.body.style.overflow = "hidden";
+				r11 = 1;
+				document.getElementById("last-r11").disabled = "true";
+				document.getElementById("next-r11").disabled = "";
+				document.getElementById("r11-1").style.display = "";
+				document.getElementById("r11-2").style.display = "none";
+				document.getElementById("r11-3").style.display = "none";
+				document.getElementById("r11-4").style.display = "none";
+				document.getElementById("r11-5").style.display = "none";
+			}
+			function NextR11()
+			{
+				if (r11 == 1)
+				{
+					r11 = 2;
+					document.getElementById("last-r11").disabled = "";
+					document.getElementById("r11-1").style.display = "none";
+					document.getElementById("r11-2").style.display = "";
+				}
+				else if (r11 == 2)
+				{
+					r11 = 3;
+					document.getElementById("r11-2").style.display = "none";
+					document.getElementById("r11-3").style.display = "";
+				}
+				else if (r11 == 3)
+				{
+					r11 = 4;
+					document.getElementById("r11-3").style.display = "none";
+					document.getElementById("r11-4").style.display = "";
+				}
+				else if (r11 == 4)
+				{
+					r11 = 5;
+					document.getElementById("next-r11").disabled = "true";
+					document.getElementById("r11-4").style.display = "none";
+					document.getElementById("r11-5").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR11()
+			{
+				if (r11 == 5)
+				{
+					r11 = 4;
+					document.getElementById("next-r11").disabled = "";
+					document.getElementById("r11-5").style.display = "none";
+					document.getElementById("r11-4").style.display = "";
+				}
+				else if (r11 == 4)
+				{
+					r11 = 3;
+					document.getElementById("r11-4").style.display = "none";
+					document.getElementById("r11-3").style.display = "";
+				}
+				else if (r11 == 3)
+				{
+					r11 = 2;
+					document.getElementById("r11-3").style.display = "none";
+					document.getElementById("r11-2").style.display = "";
+				}
+				else if (r11 == 2)
+				{
+					r11 = 1;
+					document.getElementById("last-r11").disabled = "none";
+					document.getElementById("r11-2").style.display = "none";
+					document.getElementById("r11-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Regular12()
+			{
+				document.getElementById("r12").style.display = "";
+				document.body.style.overflow = "hidden";
+				r12 = 1;
+				document.getElementById("last-r12").disabled = "true";
+				document.getElementById("next-r12").disabled = "";
+				document.getElementById("r12-1").style.display = "";
+				document.getElementById("r12-2").style.display = "none";
+			}
+			function NextR12()
+			{
+				if (r12 == 1)
+				{
+					r12 = 2;
+					document.getElementById("last-r12").disabled = "";
+					document.getElementById("next-r12").disabled = "true";
+					document.getElementById("r12-1").style.display = "none";
+					document.getElementById("r12-2").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastR12()
+			{
+				if (r12 == 2)
+				{
+					r12 = 1;
+					document.getElementById("next-r12").disabled = "";
+					document.getElementById("last-r12").disabled = "true";
+					document.getElementById("r12-2").style.display = "none";
+					document.getElementById("r12-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Big1()
+			{
+				document.getElementById("b1").style.display = "";
+				document.body.style.overflow = "hidden";
+				b1 = 1;
+				document.getElementById("last-b1").disabled = "true";
+				document.getElementById("next-b1").disabled = "";
+				document.getElementById("b1-1").style.display = "";
+				document.getElementById("b1-2").style.display = "none";
+				document.getElementById("b1-3").style.display = "none";
+			}
+			function NextB1()
+			{
+				if (b1 == 1)
+				{
+					b1 = 2;
+					document.getElementById("last-b1").disabled = "";
+					document.getElementById("b1-1").style.display = "none";
+					document.getElementById("b1-2").style.display = "";
+				}
+				else if (b1 == 2)
+				{
+					b1 = 3;
+					document.getElementById("next-b1").disabled = "true";
+					document.getElementById("b1-2").style.display = "none";
+					document.getElementById("b1-3").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastB1()
+			{
+				if (b1 == 3)
+				{
+					b1 = 2;
+					document.getElementById("next-b1").disabled = "";
+					document.getElementById("b1-3").style.display = "none";
+					document.getElementById("b1-2").style.display = "";
+				}
+				else if (b1 == 2)
+				{
+					b1 = 1;
+					document.getElementById("last-b1").disabled = "none";
+					document.getElementById("b1-2").style.display = "none";
+					document.getElementById("b1-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Big2()
+			{
+				document.getElementById("b2").style.display = "";
+				document.body.style.overflow = "hidden";
+				b2 = 1;
+				document.getElementById("last-b2").disabled = "true";
+				document.getElementById("next-b2").disabled = "";
+				document.getElementById("b2-1").style.display = "";
+				document.getElementById("b2-2").style.display = "none";
+				document.getElementById("b2-3").style.display = "none";
+				document.getElementById("b2-4").style.display = "none";
+			}
+			function NextB2()
+			{
+				if (b2 == 1)
+				{
+					b2 = 2;
+					document.getElementById("last-b2").disabled = "";
+					document.getElementById("b2-1").style.display = "none";
+					document.getElementById("b2-2").style.display = "";
+				}
+				else if (b2 == 2)
+				{
+					b2 = 3;
+					document.getElementById("b2-2").style.display = "none";
+					document.getElementById("b2-3").style.display = "";
+				}
+				else if (b2 == 3)
+				{
+					b2 = 4;
+					document.getElementById("next-b2").disabled = "true";
+					document.getElementById("b2-3").style.display = "none";
+					document.getElementById("b2-4").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastB2()
+			{
+				if (b2 == 4)
+				{
+					b2 = 3;
+					document.getElementById("next-b2").disabled = "";
+					document.getElementById("b2-4").style.display = "none";
+					document.getElementById("b2-3").style.display = "";
+				}
+				else if (b2 == 3)
+				{
+					b2 = 2;
+					document.getElementById("b2-3").style.display = "none";
+					document.getElementById("b2-2").style.display = "";
+				}
+				else if (b2 == 2)
+				{
+					b2 = 1;
+					document.getElementById("last-b2").disabled = "none";
+					document.getElementById("b2-2").style.display = "none";
+					document.getElementById("b2-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			
+			function Big3()
+			{
+				document.getElementById("b3").style.display = "";
+				document.body.style.overflow = "hidden";
+				b3 = 1;
+				document.getElementById("last-b3").disabled = "true";
+				document.getElementById("next-b3").disabled = "";
+				document.getElementById("b3-1").style.display = "";
+				document.getElementById("b3-2").style.display = "none";
+			}
+			function NextB3()
+			{
+				if (b3 == 1)
+				{
+					b3 = 2;
+					document.getElementById("last-b3").disabled = "";
+					document.getElementById("next-b3").disabled = "true";
+					document.getElementById("b3-1").style.display = "none";
+					document.getElementById("b3-2").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+			function LastB3()
+			{
+				if (b3 == 2)
+				{
+					b3 = 1;
+					document.getElementById("next-b3").disabled = "";
+					document.getElementById("last-b3").disabled = "true";
+					document.getElementById("b3-2").style.display = "none";
+					document.getElementById("b3-1").style.display = "";
+				}
+				else
+				{
+					alert("error");
+				}
+			}
+		</script>
+	</body>
+</html>
